@@ -1,0 +1,17 @@
+{
+  "vocab_size": 256,
+  "block_size": 512,
+  "n_layer": 6,
+  "n_head": 8,
+  "n_embd": 256,
+  "dropout": 0.1,
+  "batch_size": 8,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.1,
+  "max_steps": 10000,
+  "eval_interval": 250,
+  "eval_steps": 30,
+  "save_interval": 250,
+  "grad_clip": 1.0,
+  "seed": 42
+}
